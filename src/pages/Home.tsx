@@ -18,5 +18,4 @@ const Home: React.FC = () => {
     </IonPage>
   );
 };
-
 export default Home;

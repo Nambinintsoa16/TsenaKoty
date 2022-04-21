@@ -2,24 +2,18 @@
 import './LoginHtml.css';
 
 interface ContainerProps { }
-
 const LoginHtml: React.FC<ContainerProps> = () => {
   return (
     <div className="container">
       <strong>Tsena koty</strong>
-      <div className='input-cont'>
-         <label htmlFor="user">Code client</label>
-        <input type="text" id ="user" className='use input'/>
+      <input type="text"  placeholder="customer code" />
+      <input type="password"  placeholder="password" />
+      <div className='remember'>
+         <label><input type="checkbox" className='remember'/>Remember me</label>
+         <span className='psw'>Forgot<a href="">Password?</a></span>
       </div>
-      <div className='input-cont'>
-         <label htmlFor="user">Mot de passe</label>
-         <input type="password" id="pass" className='pass input'/>
-      </div>
-      <div className='input-cont'>
-      <button className='login-button'>Se connecter</button>
-      </div>
+      <button className='login-button'>Login</button>
     </div>
   );
 };
-
 export default LoginHtml;

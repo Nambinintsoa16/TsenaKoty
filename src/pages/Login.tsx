@@ -1,7 +1,6 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import LoginHtml from '../components/LoginHtml';
 import "./Login.css";
-
 const Login : React.FC = () => {
     return (
       <IonPage>

@@ -2,31 +2,44 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 10px;
 }
-
-.input-cont {
-    margin-top: 10px;
-    width: 100%;
-    padding: 5px;
+.container > strong{
+    padding: 1rem;
+    color:  #362744;
 }
-
-.input {
+.container > input{
+    size: 60px; ;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 8px 0;
+    border-bottom:1px solid white ;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+.remember {
+    display: flex;
+    justify-content:center;
+    padding: 2rem;
+}
+.remember > label {
+    padding-right: 50px;
     width: 100%;
-    height: 30px;
-    font-size: small;
+}
+.remember > span {
+    float: right;
+    padding: 1rem;
+    width: 100%;
+  }
+  .login-button {
+    background-color: #362744;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
     border: none;
-}
-
-label {
-    display: block;
-    text-align: left;
-    margin-bottom: 5px;
-}
-
-.login-button {
-    padding: 5px;
-    width: 100%;
-    height: 30px;
-    background-color: blueviolet;
-    color: #fff;
     border-radius: 1px;
+    cursor: pointer;
+    width: 90%;
 }
