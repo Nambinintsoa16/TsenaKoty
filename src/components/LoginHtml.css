@@ -1,9 +1,9 @@
 *body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
 }
-.container > strong{
-    padding: 1rem;
+.container > strong {
+   
     color:  #362744;
 }
 .container > input{
@@ -19,19 +19,17 @@
     box-sizing: border-box;
     padding: 1rem;
   }
-.remember {
+.remember > label {
+    width: 100%;
     display: flex;
-    justify-content:center;
+    position: absolute;
     padding: 2rem;
 }
-.remember > label {
-    padding-right: 50px;
-    width: 100%;
-}
-.remember > span {
+.forgot {
     float: right;
-    padding: 1rem;
-    width: 100%;
+    padding: 2rem;
+    width: 60%;
+   
   }
   .login-button {
     background-color: #362744;
@@ -42,4 +40,5 @@
     border-radius: 1px;
     cursor: pointer;
     width: 90%;
+    padding: 1rem;
 }
