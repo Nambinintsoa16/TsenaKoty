@@ -1,0 +1,6 @@
+{
+	"appId": "com.tsenaKoty.myapp",
+	"appName": "TsenaKoty",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

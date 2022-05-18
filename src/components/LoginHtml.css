@@ -2,11 +2,10 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 15px;
 }
-.container > strong {
-   
-    color:  #362744;
+form > strong {
+    color:  #4d3372;
 }
-.container > input{
+form > input{
     size: 60px; ;
     width: 90%;
     padding-top: 10px;
